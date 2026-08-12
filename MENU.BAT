@@ -1,5 +1,4 @@
 @ECHO OFF
-:MENU
 CLS
 ECHO.
 ECHO  ======================================================
@@ -38,6 +37,7 @@ CLS
 ECHO Carregando Shadow Warrior...
 CD \GAME\SWARRIOR
 SW.EXE
+CLS
 CD \
 GOTO MENU
 
@@ -47,20 +47,25 @@ ECHO Carregando Jumanji DOS...
 CD \GAME\JUMANJI
 JUMANJI.EXE
 CD \
+MENU.BAT
 GOTO MENU
 
 :CHESS
 CLS
 ECHO Preparando ambiente para Battle Chess 4000...
-CALL CHESS.BAT
+CD \GAME\BCHESS4k
+BC4000.EXE
+CD \
+MENU.BAT
 GOTO MENU
 
 :NEOPAINT
 CLS
 ECHO Iniciando NeoPaint...
-CD \NEOPAINT
+CD \GAME\NEOPAINT
 NEOPAINT.EXE
 CD \
+MENU.BAT
 GOTO MENU
 
 :DP2
@@ -69,6 +74,7 @@ ECHO Iniciando Deluxe Paint II...
 CD \DP2
 DP.EXE
 CD \
+MENU.BAT
 GOTO MENU
 
 :PASCAL
@@ -77,6 +83,7 @@ ECHO Iniciando Turbo Pascal 7...
 CD \TP\BIN
 TURBO.EXE
 CD \
+MENU.BAT
 GOTO MENU
 
 :BCPP
@@ -85,6 +92,7 @@ ECHO Iniciando Borland C++ 3.1...
 CD \BCPP31\BIN
 BC.EXE
 CD \
+MENU.BAT
 GOTO MENU
 
 :BROWSER
@@ -93,6 +101,7 @@ ECHO Iniciando o DOS Web Browser...
 CD \BCPP31\BROWSER
 BROWSER.EXE
 CD \
+MENU.BAT
 GOTO MENU
 
 :LINUX_GRUB
