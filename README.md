@@ -37,7 +37,7 @@ O HIMEM.SYS resolvia este problema. Era um driver carregado no arranque do compu
 | **High Memory Area (HMA)** | Logo acima de 1 MB | Não gerenciada. | Gerenciada. Pode conter o núcleo do DOS (`DOS=HIGH`). |
 | **Barreira de 1 MB** | **1 MB** | **Fim da linha.** | **Ponte criada.** |
 | **Convencional** | 0 a 640 KB | Cheia (DOS + drivers + programa). | Mais vazia (DOS movido para HMA, sobrando espaço para o programa). |
-SHOWPIC2.EXE
+| **SHOWPIC2.EXE** | PIC4.BMP | 
 
 
 ## Como Contribuir
