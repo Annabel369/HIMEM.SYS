@@ -1,0 +1,29 @@
+
+=======================================================
+ Tudo funcionando! conv2bmp.sh pronto ✅
+
+  Como usar:
+
+    cd "/home/astral/Documentos/128GN CEAMARE"
+
+    # Com caminho completo
+    ./conv2bmp.sh PC.png PIC1
+
+    # Com arquivo que já está na pasta do projeto
+    ./conv2bmp.sh "Imagem colada.png" PIC6
+
+  O script:
+
+  • ✅ Converte qualquer imagem → 640x480, 256 cores, sem compressão
+  • ✅ Busca o arquivo na pasta do projeto se não achar o caminho
+  • ✅ Não sobrescreve se o BMP já existir
+  • ✅ Mostra aviso de erro se a imagem não for encontrada
+
+=======================================================
+
+✨ astral@debian:~/Documentos/128GN CEAMARE$ ./conv2bmp.sh PC.png PIC1
+Convertendo 'PC.png' -> '/home/astral/Documentos/128GN CEAMARE/PIC1.BMP' ...
+Pronto! Arquivo criado: /home/astral/Documentos/128GN CEAMARE/PIC1.BMP
+/home/astral/Documentos/128GN CEAMARE/PIC1.BMP BMP3 640x480 640x480+0+0 8-bit sRGB 256c 308278B 0.000u 0:00.000
+✨ astral@debian:~/Documentos/128GN CEAMARE$ 
+
