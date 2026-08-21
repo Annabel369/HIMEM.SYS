@@ -1,0 +1,35 @@
+============================================================
+  MS-DOS 8.0 - System Distribution
+  Based on MS-DOS 7.10 Kernel (C)Microsoft Corp.
+============================================================
+
+Version : 8.0
+Build   : 2024.08.21
+Kernel  : MS-DOS 7.10 (IO.SYS + MSDOS.SYS)
+Shell   : COMMAND.COM 7.10
+
+INCLUDED COMPONENTS:
+  DOS8\HIMEM2.SYS   - Enhanced XMS 2.0 Driver (ASM x86)
+  DOS8\SYSINFO.COM  - System Information Utility (ASM x86)
+  DOS8\MEMINFO.COM  - Memory Map Utility (ASM x86)
+  DOS8\ANSI.SYS     - ANSI Terminal Driver
+  DOS8\EMM386.EXE   - EMS/UMB Memory Manager
+  DOS8\SMARTDRV.EXE - Disk Cache Driver
+  DOS8\CTMOUSE.EXE  - CuteMouse Driver v2.1
+  DOS8\DOSKEY.COM   - Command History/Macros
+  GAME\SETUP.BAT    - Game Launcher Menu
+  LOGO.SYS          - Boot Splash Screen
+
+BOOT PROFILES (CONFIG.SYS menu):
+  [1] Modo Jogos   - EMS+XMS+UMB (para todos os jogos DOS)
+  [2] Modo Dev     - NOEMS (mais memoria para compiladores)
+  [3] Modo Minimo  - Apenas DOS basico
+
+DEVELOPMENT TOOLS INCLUDED:
+  BCPP31\  - Borland C++ 3.1 for DOS
+  PASCAL\  - Pascal compiler
+
+MEDIA PLAYERS:
+  MPXPLAY\ - MP3/OGG/WAV player for DOS
+
+============================================================
