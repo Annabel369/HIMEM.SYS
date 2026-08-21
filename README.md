@@ -31,6 +31,9 @@ O HIMEM.SYS resolvia este problema. Era um driver carregado no arranque do compu
 
 ## Resumo Visual da Gestão de Memória
 
+<img width="960" height="1101" alt="Himem2" src="https://github.com/user-attachments/assets/76487e3f-a5e4-4cce-bab7-959285951197" />
+
+
 | Tipo de Memória | Endereço | Sem HIMEM.SYS | Com HIMEM.SYS |
 | :--- | :--- | :--- | :--- |
 | **Estendida (XMS)** | Acima de 1 MB | Inacessível para a maioria dos programas. | Acessível para armazenar dados de programas compatíveis. |
